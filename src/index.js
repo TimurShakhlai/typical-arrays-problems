@@ -20,5 +20,5 @@ exports.avg = function avg (array) {
     for (var i = 0; i < array.length; i++) {
         avg *= array[i];
     }
-    return min;
+    return avg/array.length;
 }
